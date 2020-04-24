@@ -62,3 +62,12 @@ LTS versions of:
   R -e "shiny::runApp('./pathToShinyApp/name.R')"
   Rscript -e "rmarkdown::render('./pathToScript/scriptName.Rmd')"
   ```
+  
+  # Biopython and conda
+  ```
+  pip install biopython
+  ```
+  <https://docs.conda.io/projects/conda/en/latest/user-guide/install/>
+  
+  # other libraries
+  apt-get install dos2unix
