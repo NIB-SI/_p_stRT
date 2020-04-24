@@ -1,8 +1,8 @@
 # general informaqtion 
 
 ## ISA-tab
+<img src="https://isa-tools.org/wp-content/uploads/2015/12/ISAmodel-structure.png" width="400"/>
 
-![ISAmodel-structure](https://isa-tools.org/wp-content/uploads/2015/12/ISAmodel-structure.png =50x) 
 
 linked from <https://isa-tools.org/format/specification.html>
 
