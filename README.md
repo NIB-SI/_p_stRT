@@ -1,4 +1,4 @@
-# general informaqtion 
+# general information 
 
 ## ISA-tab
 <img src="https://isa-tools.org/wp-content/uploads/2015/12/ISAmodel-structure.png" width="400"/>
