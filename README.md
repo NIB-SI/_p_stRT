@@ -39,8 +39,9 @@ LTS versions of:
   ```
   apt-get update
   apt-get install r-base
+  apt-get install pandoc
   ```
-  ## run from the command line
+  ## invoke R from the command line
   ```
   R
   ```
@@ -48,4 +49,16 @@ LTS versions of:
   ```
   q()
   ```
-  
+  ## help
+  ```
+  R --help
+  ```
+  ## install packages/libraries
+  ```
+  R -e 'install.packages("rmarkdown", repos="https://cran.rstudio.com/")'
+  ```
+  ## run app, script, ...
+  ```
+  R -e "shiny::runApp('./pathToShinyApp/name.R')"
+  Rscript -e "rmarkdown::render('./pathToScript/scriptName.Rmd')"
+  ```
