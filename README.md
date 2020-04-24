@@ -102,6 +102,6 @@ LTS versions of:
 
       .. represents the parent directory
 
-      ```ls .. ``` list information about the files one level up, 
+   ```ls .. ``` list information about the files one level up, 
 
-      ```ls ../.. ``` or ```ls ../../``` list information about the files two levels up, etc
+   ```ls ../.. ``` or ```ls ../../``` list information about the files two levels up, etc
