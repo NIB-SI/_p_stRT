@@ -67,7 +67,22 @@ LTS versions of:
   ```
   pip install biopython
   ```
-  <https://docs.conda.io/projects/conda/en/latest/user-guide/install/>
+  [biopython.org](https://biopython.org/)
   
-  # other libraries
+  [docs.conda.io](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
+  
+  # other packages/libraries
+  ```
+  
   apt-get install dos2unix
+  
+  apt-get install moreutils
+  
+  R -e 'install.packages(c("Rcpp", "httpuv"))'
+
+  R -e 'install.packages("shiny")'
+
+  R -e 'install.packages("devtools", repos="https://cran.rstudio.com/")'
+
+  apt-get install libssl-dev libxml2-dev libcurl4-openssl-dev libcurl4-gnutls-dev curl
+  ```
