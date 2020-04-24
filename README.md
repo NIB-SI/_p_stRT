@@ -88,13 +88,20 @@ LTS versions of:
   ```
   
   # cheatsheet
+  command line cheatsheet linked from [www.git-tower.com](www.git-tower.com)
+  
   <img src="https://www.git-tower.com/blog/media/pages/posts/command-line-cheat-sheet/1073300074-1586415841/command-line-cheat-sheet-large01.png" width="600"/>
   
-  command line cheatsheet linked from [www.git-tower.com](www.git-tower.com)
+  
   
   always use relative path
   
-. represents the current directory
-.. represents the parent directory
-ls .. lists one level up
-cd ../.. moves two levels up
+  . represents the current directory
+
+  .. represents the parent directory
+
+```ls .. ``` list information about the files one level up
+
+```ls ../.. ``` or ```ls ../../``` list information about the files two levels up
+
+etc
