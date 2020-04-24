@@ -26,8 +26,26 @@ FAIRDOMHub: a repository and collaboration environment for sharing systems biolo
 
 <https://fairdomhub.org/>
 
-# recommended OS, LTS versions
+# recommended OS
 
-<https://linuxmint.com/>
+LTS versions of:
 
-<https://ubuntu.com/>
+  <https://linuxmint.com/>
+
+  <https://ubuntu.com/>
+  
+  # R on linux
+  ## install
+  ```
+  apt-get update
+  apt-get install r-base
+  ```
+  ## run from the command line
+  ```
+  R
+  ```
+  ## quit R
+  ```
+  q()
+  ```
+  
