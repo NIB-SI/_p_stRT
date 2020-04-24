@@ -1,19 +1,33 @@
-# ISA-tab
+# general informaqtion 
 
-![ISAmodel-structure](https://isa-tools.org/wp-content/uploads/2015/12/ISAmodel-structure.png) linked from <https://isa-tools.org/format/specification.html>
+## ISA-tab
 
-# pISA-tree structure
+![ISAmodel-structure](https://isa-tools.org/wp-content/uploads/2015/12/ISAmodel-structure.png =50x) 
+
+linked from <https://isa-tools.org/format/specification.html>
+
+## pISA-tree structure
 pISA-tree: Standard project directory tree (ISA-tab compliant) 
+
 <https://github.com/NIB-SI/pISA>
 
-## seekr
+### seekr
 pISA-tree: Standard project directory tree (ISA-tab compliant)
+
 <https://github.com/NIB-SI/seekr>
 
-## pisaR
+### pisaR
 R support for pISA-tree
+
 <https://github.com/NIB-SI/pisar>
 
-# FAIRDOMHub
+## FAIRDOMHub
 FAIRDOMHub: a repository and collaboration environment for sharing systems biology research
+
 <https://fairdomhub.org/>
+
+# recommended OS, LTS versions
+
+<https://linuxmint.com/>
+
+<https://ubuntu.com/>
