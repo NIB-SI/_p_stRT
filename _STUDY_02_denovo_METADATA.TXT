@@ -1,0 +1,11 @@
+Study:	_S_02_denovo 
+Short Name:	02_denovo
+Title:	De novo assemblies
+Description:	De novo assemblies for cration of potato reference transcriptomes
+Raw Data:	../_S_01_sequences/
+pISA Study creation date:	2019-10-23
+pISA Study creator:	Maja Zagorscak, Marko Petek
+Principal investigator:	Kristina Gruden
+License:	GPL-3, CC BY 4.0
+Sharing permission:	Public
+Upload to FAIRDOMHub:	Yes

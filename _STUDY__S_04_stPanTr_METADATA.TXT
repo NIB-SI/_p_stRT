@@ -1,0 +1,11 @@
+Study:	_S_04_stPanTr 
+Short Name:	04_stPanTr
+Title:	Solanum tuberosum Pan-Transcriptome
+Description:	Solanum tuberosum Pan-Transcriptome
+Raw Data:	../_S_03_stCuSTr
+pISA Study creation date:	2019-10-22
+pISA Study creator:	Maja Zagorscak, Marko Petek
+Principal investigator:	Kristina Gruden
+License:	CC BY 4.0
+Sharing permission:	Public
+Upload to FAIRDOMHub:	Yes

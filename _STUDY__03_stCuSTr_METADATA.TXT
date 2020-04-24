@@ -1,0 +1,11 @@
+Study:	_S_03_stCuSTr 
+Short Name:	03_stCuSTr
+Title:	Solanum tuberosum Cultivar-Specific Transcriptomes
+Description:	Solanum tuberosum Cultivar-Specific Transcriptomes
+Raw Data:	../_S_01_sequences/, ../_S_02_denovo/
+pISA Study creation date:	2019-10-22
+pISA Study creator:	Maja Zagorscak, Marko Petek
+Principal investigator:	Kristina Gruden
+License:	GPL-3, CC BY 4.0
+Sharing permission:	Public
+Upload to FAIRDOMHub:	Yes

@@ -1,0 +1,11 @@
+Study:	_S_01_sequences 
+Short Name:	01_sequences
+Title:	NGS sequences for de novo assembly
+Description:	NGS sequences for de novo assembly; input for Study 02_denovo
+Raw Data:	
+pISA Study creation date:	2019-10-23
+pISA Study creator:	Maja Zagorscak, Marko Petek
+Principal investigator:	Kristina Gruden
+License:	GPL-3, CC BY 4.0
+Sharing permission:	Public
+Upload to FAIRDOMHub:	Yes
