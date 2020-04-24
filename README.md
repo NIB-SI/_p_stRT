@@ -92,5 +92,9 @@ LTS versions of:
   
   command line cheatsheet linked from [www.git-tower.com](www.git-tower.com)
   
-  always use relative path; read about relative vs absolute path at [geeksforgeeks.org](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/)
+  always use relative path
   
+. represents the current directory
+.. represents the parent directory
+ls .. lists one level up
+cd ../.. moves two levels up
