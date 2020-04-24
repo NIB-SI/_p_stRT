@@ -86,3 +86,11 @@ LTS versions of:
 
   apt-get install libssl-dev libxml2-dev libcurl4-openssl-dev libcurl4-gnutls-dev curl
   ```
+  
+  # cheatsheet
+  <img src="https://www.git-tower.com/blog/media/pages/posts/command-line-cheat-sheet/1073300074-1586415841/command-line-cheat-sheet-large01.png" width="600"/>
+  
+  command line cheatsheet linked from [www.git-tower.com](www.git-tower.com)
+  
+  always use relative path; read about relative vs absolute path at [geeksforgeeks.org](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/)
+  
