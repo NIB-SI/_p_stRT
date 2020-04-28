@@ -1,0 +1,26 @@
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	ProSiteProfiles	PS50135	Zinc finger ZZ-type profile.	85	119	11.915	T	20.04.2019	IPR000433	Zinc finger, ZZ-type
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	SUPERFAMILY	SSF48371		361	1644	2.55E-16	T	20.04.2019	IPR016024	Armadillo-type fold
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	SMART	SM00291		85	128	2.40E-10	T	20.04.2019	IPR000433	Zinc finger, ZZ-type
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	MobiDBLite	mobidb-lite	consensus disorder prediction	50	68	-	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	MobiDBLite	mobidb-lite	consensus disorder prediction	2437	2461	-	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	MobiDBLite	mobidb-lite	consensus disorder prediction	2434	2461	-	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	ProSitePatterns	PS01357	Zinc finger ZZ-type signature.	91	118	-	T	20.04.2019	IPR000433	Zinc finger, ZZ-type
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	CDD	cd02249	ZZ	89	140	5.58E-16	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	PANTHER	PTHR21725		208	2580	0	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	SUPERFAMILY	SSF57850		75	144	1.77E-18	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	MobiDBLite	mobidb-lite	consensus disorder prediction	49	68	-	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	Pfam	PF13764	E3 ubiquitin-protein ligase UBR4	1659	2564	0	T	20.04.2019	IPR025704	E3 ubiquitin ligase, UBR4
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	MobiDBLite	mobidb-lite	consensus disorder prediction	1295	1341	-	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	Pfam	PF00569	Zinc finger, ZZ type	88	120	1.30E-09	T	20.04.2019	IPR000433	Zinc finger, ZZ-type
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	MobiDBLite	mobidb-lite	consensus disorder prediction	1304	1341	-	T	20.04.2019		
+SdnRY1_4	c57d89eef069edba4ac622978d1867d1	2589	Gene3D	G3DSA:3.30.60.90		84	146	3.40E-14	T	20.04.2019		
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	Gene3D	G3DSA:2.40.100.10		1	100	4.20E-22	T	20.04.2019	IPR029000	Cyclophilin-like domain superfamily
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	SUPERFAMILY	SSF50891		1	97	1.11E-21	T	20.04.2019	IPR029000	Cyclophilin-like domain superfamily
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	PANTHER	PTHR11071		66	97	1.20E-29	T	20.04.2019	IPR024936	Cyclophilin-type peptidyl-prolyl cis-trans isomerase
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	PANTHER	PTHR11071		29	66	1.20E-29	T	20.04.2019	IPR024936	Cyclophilin-type peptidyl-prolyl cis-trans isomerase
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	PANTHER	PTHR11071:SF382		66	97	1.20E-29	T	20.04.2019		
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	PANTHER	PTHR11071:SF382		29	66	1.20E-29	T	20.04.2019		
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	ProSiteProfiles	PS50072	Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain profile.	1	105	15.149	T	20.04.2019	IPR002130	Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	Pfam	PF00160	Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD	1	95	2.90E-11	T	20.04.2019	IPR002130	Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	PRINTS	PR00153	Cyclophilin peptidyl-prolyl cis-trans isomerase signature	83	95	2.40E-12	T	20.04.2019	IPR002130	Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain
+VdnRY1_8	19baeb926ab6391abae9bbd385cf4aae	105	PRINTS	PR00153	Cyclophilin peptidyl-prolyl cis-trans isomerase signature	68	83	2.40E-12	T	20.04.2019	IPR002130	Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain
