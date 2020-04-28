@@ -66,6 +66,7 @@ total <- merge(total,DT7, by="V1")
 colnames(total) = c("polypeptide_ID", "Analysis", "Signature_Accession", 
                     "IPR_annotations_accession", "IPR_annotations_description")
 
+dir.create(file.path(pathToOutputFolder))               
 pathToOutputFolder = "../output" # change accordingly 
 # write aggregated results
 write.table(total, file = paste0(pathToOutputFolder, 
