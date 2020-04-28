@@ -1,3 +1,4 @@
+#zagor
 # R script
 
 if (!require(data.table)) install.packages("data.table")
