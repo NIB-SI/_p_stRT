@@ -520,13 +520,13 @@ tr.3.unknown[is.na(tr.3.unknown)] = "-"
 #             col.names = TRUE, qmethod = c("escape", "double"),
 #             fileEncoding = "")
 
-write.table(tr.3.annot$ID, file = "../output/genotype/genotype_tr.3_keep_IDs.tsv", 
+write.table(tr.3.annot$ID, file = "../output/genotype/genotype_keep_IDs.tsv", 
             append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "NA", dec = ".", row.names = FALSE,
             col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
 
-write.table(tr.3.unknown$ID, file = "../output/genotype/genotype_tr.3_drop_IDs.tsv", 
+write.table(tr.3.unknown$ID, file = "../output/genotype/genotype_drop_IDs.tsv", 
             append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "NA", dec = ".", row.names = FALSE,
             col.names = FALSE, qmethod = c("escape", "double"),
