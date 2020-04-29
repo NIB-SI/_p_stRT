@@ -1,5 +1,5 @@
 #zagor
-# paralogue clusters from EvidentialGene headers
+# paralogue clusters from EvidentialGene headers intersected with filtering output
 
 library(stringr)
 library(igraph)
