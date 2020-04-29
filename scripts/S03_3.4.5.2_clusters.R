@@ -1,5 +1,5 @@
 #zagor
-# paralogue clusters from EvidentialGene headers intersected with filtering output
+# paralogue clusters from EvidentialGene headers
 
 library(stringr)
 library(igraph)
@@ -48,7 +48,7 @@ b = data[,2:3]
 colnames(a) = colnames(b) = c("ID1", "ID2")
 edges = rbind(a,b)
 ind = which(!(edges$ID1 %in% keepStatus$ID) & !(edges$ID2 %in% keepStatus$ID))
-edges = edges[-ind,]
+if (length(ind) != 0) edges = edges[-ind,]
 edges$ID1[!(edges$ID1 %in% keepStatus$ID)] = ''
 edges$ID2[!(edges$ID2 %in% keepStatus$ID)] = ''
 edges = edges[-which(edges$ID1== ''),]
@@ -134,13 +134,13 @@ write.table(x = alt$ID,
             file = paste0(pathToOutput, "/alternativesIDs.tsv"), 
             append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "NA", dec = ".", row.names = FALSE,
-            col.names = TRUE, qmethod = c("escape", "double"),
+            col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
 write.table(x = rep$ID, 
             file = paste0(pathToOutput, "/representativesIDs.tsv"), 
             append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "NA", dec = ".", row.names = FALSE,
-            col.names = TRUE, qmethod = c("escape", "double"),
+            col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
 
 alias.rep = cbind(rep$ID, 
@@ -167,11 +167,11 @@ write.table(x = alias.alt,
             file = paste0(pathToOutput, "/alias.alt"), 
             append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "NA", dec = ".", row.names = FALSE,
-            col.names = TRUE, qmethod = c("escape", "double"),
+            col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
 write.table(x = alias.rep, 
             file = paste0(pathToOutput, "/alias.rep"), 
             append = FALSE, quote = FALSE, sep = "\t",
             eol = "\n", na = "NA", dec = ".", row.names = FALSE,
-            col.names = TRUE, qmethod = c("escape", "double"),
+            col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
