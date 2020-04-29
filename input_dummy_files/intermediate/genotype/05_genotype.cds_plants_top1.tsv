@@ -1,0 +1,19 @@
+	Query_ID	Query_length	Target_ID	Target_length	Target_description	E-value	Identity%	Aligned_seq_length	Score	Positives%	Gaps%
+	SdnRY1_100 type=CDS; aalen=1887,90%,complete; clen=6250; strand=+; offs=72-5735;  evgclass=althi,okay,match:CLCdnRY2_14942,pct:100/92/.;	5664	A0A2G2VXF0	2053	Uncharacterized protein {ECO:0000313|EMBL:PHT37641.1} OS=Capsicum baccatum (Peruvian pepper)	0.00E+00	87	1892	3279.2	92	0
+	SdnRY1_100002 type=CDS; aalen=37,55%,complete; clen=204; strand=+; offs=80-193;  evgclass=noclass,okay;	114									
+	SdnRY1_100013 type=CDS; aalen=30,45%,complete; clen=203; strand=+; offs=101-193;  evgclass=main,okay,match:VdnRY4_48870,pct:99/100/.;	93									
+	SdnRY1_100047 type=CDS; aalen=40,60%,complete; clen=203; strand=+; offs=80-202;  evgclass=main,okay,match:CLCdnRY7_65980,pct:100/51/-sense;	123									
+	SdnRY1_100054 type=CDS; aalen=45,67%,complete; clen=203; strand=+; offs=19-156;  evgclass=main,okay,match:VdnRY1_146323,pct:100/57/.;	138									
+	SdnRY1_100057 type=CDS; aalen=43,65%,complete; clen=203; strand=+; offs=27-158;  evgclass=noclass,okay;	132									
+	SdnRY1_100073 type=CDS; aalen=33,50%,complete; clen=203; strand=+; offs=2-103;  evgclass=noclass,okay;	102									
+	SdnRY1_100085 type=CDS; aalen=46,69%,complete; clen=203; strand=-; offs=154-14;  evgclass=althi,okay,match:VdnRY1_173666,pct:100/38/-sense;	141									
+	SdnRY1_100095 type=CDS; aalen=33,50%,complete; clen=203; strand=-; offs=121-20;  evgclass=noclass,okay;	102									
+	SdnRY1_10012 type=CDS; aalen=545,82%,complete; clen=1992; strand=+; offs=13-1650;  evgclass=maina2,okay,match:SdnRY1_9777,pct:100/100/.;	1638									
+	SdnRY1_10017 type=CDS; aalen=520,78%,complete; clen=1991; strand=+; offs=203-1765;  evgclass=main,okay,match:CLCdnRY12_22485,pct:100/98/.;	1563	A0A0V0I6L2	481	Putative cytochrome P450 82C4-like {ECO:0000313|EMBL:JAP28193.1} OS=Solanum chacoense (Chaco potato)	8.10E-279	99	481	964.1	99	0
+	SdnRY1_100178 type=CDS; aalen=50,75%,complete; clen=203; strand=-; offs=166-14;  evgclass=althi1,okay,match:CLCdnRY2_46678,pct:99/100/.;	153									
+	SdnRY1_100189 type=CDS; aalen=58,87%,complete; clen=203; strand=-; offs=192-16;  evgclass=main,okay,match:VdnRY1_218834,pct:100/97/.;	177									
+	SdnRY1_100194 type=CDS; aalen=41,62%,complete; clen=203; strand=+; offs=75-200;  evgclass=noclass,okay;	126									
+	SdnRY1_100201 type=CDS; aalen=57,85%,complete; clen=203; strand=-; offs=180-7;  evgclass=main,okay,match:VdnRY1_191409,pct:100/94/.;	174									
+	SdnRY1_100236 type=CDS; aalen=43,65%,complete; clen=203; strand=+; offs=65-196;  evgclass=noclass,okay;	132	A0A0V0GY30	171	Putative ovule protein {ECO:0000313|EMBL:JAP12695.1} OS=Solanum chacoense (Chaco potato)	1.10E-11	72	43	73.2	79	0
+	SdnRY1_10024 type=CDS; aalen=510,77%,complete; clen=1990; strand=+; offs=158-1690;  evgclass=maina2,okay,match:SdnRY1_6794,pct:100/100/.;	1533	A0A0V0IN14	510	Putative methyltransferases-like {ECO:0000313|EMBL:JAP33465.1} OS=Solanum chacoense (Chaco potato)	1.50E-298	98	510	1029.6	98	0
+	SdnRY1_10028 type=CDS; aalen=480,72%,complete; clen=1990; strand=+; offs=327-1769;  evgclass=main,okay,match:CLCdnRY5_44843,pct:100/100/.;	1443	M1CDR5	499	Uncharacterized protein {ECO:0000313|EnsemblPlants:PGSC0003DMT400065313} OS=Solanum tuberosum (Potato)	6.80E-248	93	499	861.3	93	3
