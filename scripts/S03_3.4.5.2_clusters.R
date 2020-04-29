@@ -42,11 +42,12 @@ keepStatus = read.delim(file = paste0(pathToInput, "/genotype_keep_IDs.tsv"),
                      col.names = c("ID"),
                      fill = TRUE)
 
-
 a = data[,1:2]
 b = data[,2:3]
-colnames(a) = colnames(b) = c("ID1", "ID2")
+c = data[,c(1,3)]
+colnames(a) = colnames(b) = colnames(c) = c("ID1", "ID2")
 edges = rbind(a,b)
+edges = rbind(a,c)
 ind = which(!(edges$ID1 %in% keepStatus$ID) & !(edges$ID2 %in% keepStatus$ID))
 if (length(ind) != 0) edges = edges[-ind,]
 edges$ID1[!(edges$ID1 %in% keepStatus$ID)] = ''
@@ -62,6 +63,7 @@ g = simplify(g, remove.multiple = TRUE, remove.loops = TRUE)
 sum(which_multiple(g))
 sum(which_loop(g))
 V(g)
+
 
 comp = components(g, mode = "weak")
 table(comp$csize)
