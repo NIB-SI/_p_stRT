@@ -63,6 +63,13 @@ ind = match(cdhitOut$V7, names(tmp))
 cdhitOut$V9 = NA
 cdhitOut$V9 = tmp[ind]
 
+singletons = cdhitOut[intersect(which(cdhitOut$V9 <= 1), which(cdhitOut$V4 == "*")),]
+unique(singletons$V4)
+
+ss = cdhitOut$V7[which(cdhitOut$V9 == 1)]
+all (ss %in% singletons$V7)
+
+
 
 cdhitOut$V8 = NA
 cdhitOut = cdhitOut[order(V7,V4)]
@@ -77,6 +84,8 @@ any(is.na(cdhitOut$V8[goodIdx]))
 fillIdx <- cumsum(goodIdx) + 1
 cdhitOut$V8 = goodVals[fillIdx]
 
+sum (cdhitOut$V7 %in% ss)
+
 
 
 representatives = cdhitOut[intersect(which(cdhitOut$V9 > 1), which(cdhitOut$V4 == "*")),]
@@ -85,12 +94,19 @@ cdhitOut = cdhitOut[-ind, ]
 
 sum (cdhitOut$V7 %in% ss)
 
+
 min(cdhitOut$V1)
 max(cdhitOut$V1)
 
 
 colnames(cdhitOut) = c("seqNo", "seqLen", "seqID", "pos", "strand", "perc", "cluster", "clu_cnt", "rep")
 colnames(representatives) = c("seqNo", "seqLen", "seqID", "pos", "strand", "perc", "cluster", "clu_cnt", "rep")
+colnames(singletons) = c("seqNo", "seqLen", "seqID", "pos", "strand", "perc", "cluster", "clu_cnt")
+singletons$rep = singletons$seqID
+singletons$wc = NA
+singletons$wc[c(grep("PGSC", singletons$seqID), grep("Sotub", singletons$seqID))] = "DM"
+singletons$wc[grep("genotype1", singletons$seqID)] = "g1"
+singletons$wc[grep("genotype2", singletons$seqID)] = "g2"
 
 
 cdhitOut$cv.seq = NA
@@ -123,13 +139,15 @@ representatives$cv.rep[grep('genotype2', representatives$rep)] = "g2"
 
 table(cdhitOut$cv.rep)
 table(cdhitOut$cv.seq)
+table(singletons$wc)
 
 length(cdhitOut$seqID) == length(unique(cdhitOut$seqID))
 length(unique(cdhitOut$cluster)) == length(unique(cdhitOut$rep))
 
-length(unique(cdhitOut$rep)) + length(unique(cdhitOut$seqID))
-
-
+length(unique(cdhitOut$rep)) + length(unique(cdhitOut$seqID)) + length(unique(singletons$seqID))
+# sum(singletons$seqID %in% cdhitOut$seqID)
+# sum(singletons$seqID %in% cdhitOut$rep)
+# cdhitOut[cdhitOut$rep %in% singletons$seqID,]
 
 a = tapply(cdhitOut$cv.seq, cdhitOut$cluster, FUN=paste)
 
@@ -145,13 +163,19 @@ ind = match(representatives$seqID, cdhitOut$rep)
 representatives$combo = cdhitOut$combo[ind]
 
 
+
+colnames(singletons)[dim(singletons)[2]] = "cv.seq"
+singletons$cv.rep = singletons$cv.seq
+
+singletons$combo = singletons$cv.rep
+singletons$status = "singleton"
 cdhitOut$status = "alternative"
 representatives$status = "representative"
 
 
-mymerge.tmp.t = rbind(representatives, cdhitOut)
-mymerge.tmp.t = rbind(mymerge.tmp.t, singletons)
-mymerge = mymerge.tmp.t
+mymerge.tmp = rbind(representatives, cdhitOut)
+mymerge.tmp = rbind(mymerge.tmp, singletons)
+mymerge = mymerge.tmp
 
 
 write.table(x = mymerge, file = paste0(pathToOutput, '/', "my_cdhitEST_clusters.tsv"), 
