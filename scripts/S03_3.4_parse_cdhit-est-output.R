@@ -1,5 +1,5 @@
 # zagor
-# parsing cdhit-2d assignments
+# parsing cdhit-est assignments
 
 if (!require("data.table")) install.packages("data.table")
 
