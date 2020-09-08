@@ -1,0 +1,19 @@
+>Cluster 0
+0	3595aa, >Sotub04g029030.1.1... *
+>Cluster 1
+0	2941aa, >Sotub01g045910.1.1... *
+>Cluster 2
+0	2322aa, >genotype2_seq1... *
+1	779aa, >genotype1_seq1... at 1:546:1472:2017/96.34%
+2	125aa, >Sotub01g007180.1.1... at 1:94:1631:1724/98.94%
+>Cluster 3
+0	2086aa, >Sotub04g005170.1.1... *
+>Cluster 4
+0	1358aa, >genotype1_seq2... *
+1	1160aa, >Sotub09g015350.1.1... at 368:1157:463:1252/99.62%
+2	176aa, >genotype1_seq3... at 70:176:1252:1358/100.00%
+>Cluster 5
+0	1265aa, >Sotub07g026140.1.1... *
+1	60aa, >genotype2_seq2... at 25:60:1230:1265/100.00%
+>Cluster 6
+0	1249aa, >Sotub05g016780.1.1... *
