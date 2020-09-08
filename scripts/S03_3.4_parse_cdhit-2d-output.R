@@ -1,6 +1,8 @@
 # zagor
 # parsing cdhit-2d assignments
 
+if (!require("data.table")) install.packages("data.table")
+
 # https://stackoverflow.com/questions/13365732/sorting-non-alphanumeric-characters-in-ascii-order-in-r
 asciiSort <- function(vec) {
   x <- sapply(vec, 
