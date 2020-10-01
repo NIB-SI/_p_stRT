@@ -35,12 +35,18 @@ LTS versions of:
   <https://ubuntu.com/>
   
   # R on linux
-  ## install
+  ## install R and pandoc
   ```
+  apt-key adv --keyserver [from this location or server] --recv-keys [retrieve key(s)]
+  add-apt-repository ‘deb https://cloud.r-project.org/bin/linux/ubuntu [type appropriate selection from https://cloud.r-project.org/bin/linux/ubuntu/]’
+
   apt-get update
   apt-get install r-base
+  apt-get install r-base-dev
+  apt install build-essential
   apt-get install pandoc
   ```
+
   ## invoke R from the command line
   ```
   R
@@ -105,3 +111,71 @@ LTS versions of:
    ```ls .. ``` list information about the files one level up, 
 
    ```ls ../.. ``` or ```ls ../../``` list information about the files two levels up, etc
+
+<br/>
+
+## 📝 Useful links and code lines
+
+## :clipboard: Obtaining materials from the GitHub
+
+- use wget to pull down the ```raw``` file
+```
+$ wget https://raw.githubusercontent.com/username/reponame/path/to/file
+```
+- use git clone to pull the complete repository (prerequisites: user with ```sudo``` privileges)
+```
+$ sudo apt update
+$ sudo apt install git
+$ git clone https://github.com/username/reponame.git
+```
+
+## :clipboard: Install Perl on Ubuntu-like Linux OS
+- Install Perl on Ubuntu-like Linux OS (prerequisites: user with ```sudo``` privileges)
+```
+$ sudo apt update
+$ sudo apt-get install perl
+# check version 
+$ perl -v
+```
+More details for installing Perl can be found at [perl.org](www.perl.org/get.html#unix_like)
+
+- Use [CPAN](www.cpan.org) (‘Comprehensive Perl Archive Network’) to install Perl modules
+
+- Install different version of Perl
+```
+$ sudo cpan App::perlbrew
+$ perlbrew init
+
+# see which versions are available:
+$ perlbrew available
+
+# install version 5.X.Y
+$ perlbrew install perl-5.X.Y
+
+# list all installed versions
+$ perlbrew list
+
+# change Perl for the current shell # (or per your sessions)
+$ perlbrew use perl-5.X.Y # (or perlbrew switch perl-5.X.Y)
+$ which perl
+
+# revert version to default for the current shell # (or per your sessions)
+$ perlbrew off # (or perlbrew switch-off)
+```
+
+## :clipboard: pip 
+Installing pip for Python 3 and Python2 on Ubuntu-like OS (prerequisites: user with sudo privileges)
+```
+# Installing pip for Python 3
+$ sudo apt update
+$ sudo apt install python3-pip
+
+# Installing pip for Python 2
+$ sudo apt update 
+$ sudo apt install python2
+$ curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
+$ sudo python2 get-pip.py
+```
+
+
+<br/>
