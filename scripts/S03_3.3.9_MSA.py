@@ -11,15 +11,24 @@ from termcolor import colored, cprint
 import numbers
 
 # ref: https://www.geeksforgeeks.org/print-colors-python-terminal/
-def prRed(skk): print("\033[91m {}\033[00m" .format(skk)) 
-def prGreen(skk): print("\033[92m {}\033[00m" .format(skk)) 
-def prYellow(skk): print("\033[93m {}\033[00m" .format(skk)) 
-def prLightPurple(skk): print("\033[94m {}\033[00m" .format(skk)) 
-def prPurple(skk): print("\033[95m {}\033[00m" .format(skk)) 
-def prCyan(skk): print("\033[96m {}\033[00m" .format(skk)) 
-def prLightGray(skk): print("\033[97m {}\033[00m" .format(skk)) 
-def prBlack(skk): print("\033[98m {}\033[00m" .format(skk))
-def prBlue(skk): print("\033[94m {}\033[00m" .format(skk))
+def prRed(skk):
+    print(f"\033[91m {skk}\033[00m") 
+def prGreen(skk):
+    print(f"\033[92m {skk}\033[00m") 
+def prYellow(skk):
+    print(f"\033[93m {skk}\033[00m") 
+def prLightPurple(skk):
+    print(f"\033[94m {skk}\033[00m") 
+def prPurple(skk):
+    print(f"\033[95m {skk}\033[00m") 
+def prCyan(skk):
+    print(f"\033[96m {skk}\033[00m") 
+def prLightGray(skk):
+    print(f"\033[97m {skk}\033[00m") 
+def prBlack(skk):
+    print(f"\033[98m {skk}\033[00m")
+def prBlue(skk):
+    print(f"\033[94m {skk}\033[00m")
 
 # from BioPython
 def read_fasta(fp):
